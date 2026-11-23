@@ -1,0 +1,14 @@
+Leçon interactive — Éclairage public du camping
+
+Contenu du paquet
+- animation.html : leçon complète, schémas, images des composants et lecteur MP3.
+- audio/ : les huit fichiers MP3, un par scène.
+
+Important pour la lecture audio
+Gardez le dossier audio à côté du fichier animation.html. Pour éviter que le navigateur bloque les MP3 ouverts depuis un aperçu de fichier, servez le dossier par HTTP :
+
+  python3 -m http.server 8000
+
+Puis ouvrez http://localhost:8000/animation.html dans le navigateur.
+
+Dans l’aperçu Arena, utilisez le lecteur MP3 natif ou le bouton « MP3 » de chaque scène. Le document HTML contient aussi une piste intégrée de secours.
